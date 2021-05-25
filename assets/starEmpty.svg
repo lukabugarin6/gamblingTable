@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 18" width="15" height="18">
+	<title>starEmpty</title>
+	<defs>
+		<image  width="13" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAAAXNSR0IB2cksfwAAAHtQTFRF////29vbqamp3t7e/Pz8q6urp6ens7Oz2NjYoqKi3d3d7u7upqamsrKy4uLi8fHx/f39sLCwkZGRlZWVmZmZnp6erKysra2txcXFkpKS3Nzck5OTrq6u5ubml5eXwcHBzs7OwMDAzc3NtbW1oKCg09PT2dnZsbGxxMTEjqJW+QAAACl0Uk5TAP///wD///////8Q///QAAD///////////////+Q//////////////9pNiy4AAAAaklEQVR4nEXM5xKDIBhE0TWCKCnGAqRALLG9/xMqzDe4/87szAX8kkuKOMYzwaLyIuOSjmtyO3R/lE+gqptWHeJamxfep3SFzzfKOkD+SMb5TEfqQ3QgjUGWNASpVpnxz7UIEtPMwJZ1A3YRcgdKx161+gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="1" y="3" />
+</svg>

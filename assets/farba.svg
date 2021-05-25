@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 61" width="121" height="61">
+	<title>farba</title>
+	<defs>
+		<image  width="115" height="54" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAA2CAMAAADDCFYLAAAAAXNSR0IB2cksfwAAADNQTFRFJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuJGeuXYSLCgAAABF0Uk5TABBAYMCQIP+AcLAw0KBQ4PDQFPmJAAABBUlEQVR4nMXYbQ+CIBSGYRARRLH+/68tW8ODabM27vN8ajO9xsvRM4y5Ftu53ndHV4bwSh8vPuksMbTIITU2oUrS3mvLiSiQmzkR2qwxr7zp+B30USWA+SnjYMZFYxxihkVlNeVYZ4iclIsFEAe18gxiuEy1SBMHtWoFc0eVXYSDWz/aprM8yhMrryKfQFVrPTFOsqx4S/DkitXsGLEycfJOiUUlwbULizCKt0NB7qC1U4E6XIVxqpgqBarQEBVwoURhKpBaW8gqmIZ5LexE4gtaiwAYwv4k1iOq99JEzvvW4LM7tgQPD9HrDLtbouvfv3K13unLs+zic47T+R/Os9h/7votD0tIkkdFfCdWAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="2" y="3" />
+</svg>

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 18" width="16" height="18">
+	<title>starHalf</title>
+	<defs>
+		<image  width="14" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAMAAACuAq9NAAAAAXNSR0IB2cksfwAAANJQTFRF////5/T7ZrfZHaLX3t7e/f7+v+LxDJfSBKHgs7Oz/Pz85vP5Ya3QAJXVAKHiq6ur3d3d/v7/7vT3vNThcK3NCorGsrKy4uLi8fHx/f392OTvLmyfA2KkAG+wAHu8AIjIrKysra2txcXFytrpCleZAmKksLCw7vP4eaC+BWOkrq6u5ubm7fT4eKbEAnCw3Ov0PYq2zs7OO4m2zc3N0uXxIHuwwMDAyeDuCnKvBYnHIpnMSbLbtbW11efxKn+xHYG2iLjP9vr7/P7/2dnZsbGxxMTEF/38LQAAAEZ0Uk5TAID///8A/////wCQ//////8AEP/////QAAD/////////////////EP///5Ag//////////////////////////8AAP///x/bIgwAAACASURBVHicPczHFoIwAETRsSJYgmAvEFApomIHe8P//yUh5uSt5m4GyMrlC0WISmWpIiuC1Vq9QdT/bmp6q52y0+31gcFwNDbMlIRSy8ZkOhOkDlzPF5wHwGK54rSC7Ctcc27Ydbjl3DHuD5xHxig2TufLlVCZ8XZ/PF9v5ZN8gR877A7sevImCwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="1" y="2" />
+</svg>
