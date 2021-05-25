@@ -140,6 +140,7 @@ td.paint img {
 }
 .table-2 tbody td.paint {
     padding: 0;
+    width: 180px;
 }
 
 .table-2 .img-wrapper .paint {
