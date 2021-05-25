@@ -14,8 +14,8 @@
 
 body {
     font-family: var(--font);
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
 }
 
 button {
@@ -139,8 +139,11 @@ td.paint img {
     text-align: center;
 }
 .table-2 tbody td.paint {
-    width: 180px;
     padding: 0;
+}
+
+.table-2 .img-wrapper .paint {
+    min-width: 180px;
 }
 
 .table-2 .img-wrapper.paint span {
@@ -178,4 +181,12 @@ td.paint img {
     top: 25%;
     transform: translate(-50%,-50%);
     font-size: .9rem;
+}
+
+.overflow-auto {
+    overflow-x: auto;
+}
+
+.table-2 .img-wrapper .rating {
+    display: flex;
 }
