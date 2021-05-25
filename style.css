@@ -40,7 +40,7 @@ a {
 
 .table-1 thead {
     color: var(--main-color);
-    background-color: rgba(249, 183, 30, .45);
+    background-color: rgba(249, 183, 30, .75);
     border-radius: 9px 9px 0 0;
 }
 
