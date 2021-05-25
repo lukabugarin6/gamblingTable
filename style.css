@@ -188,7 +188,7 @@ td.paint img {
     overflow-x: auto;
 }
 
-.table-2 .img-wrapper .rating {
+.table-2 .img-wrapper.rating {
     display: flex;
 }
 
