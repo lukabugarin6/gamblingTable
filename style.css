@@ -14,8 +14,8 @@
 
 body {
     font-family: var(--font);
-    /* display: flex;
-    justify-content: space-evenly; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 button {
@@ -140,10 +140,10 @@ td.paint img {
 }
 .table-2 tbody td.paint {
     padding: 0;
-    width: 180px;
+    /* width: 180px; */
 }
 
-.table-2 .img-wrapper .paint {
+.table-2 .img-wrapper.paint {
     min-width: 180px;
 }
 
@@ -190,4 +190,10 @@ td.paint img {
 
 .table-2 .img-wrapper .rating {
     display: flex;
+}
+
+@media(max-width:1366px) {
+    body {
+        flex-direction: column;
+    }
 }
