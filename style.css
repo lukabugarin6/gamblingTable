@@ -162,7 +162,11 @@ td.paint img {
     background-color: rgba(212,212,212,0.2);
 }
 
-.table-1 tbody tr:nth-child(2n) {
+.table-1 tbody tr:nth-child(even) {
+    background-color: rgba(150,150,150,0.2);
+}
+
+.table-2 tbody tr:nth-child(odd) {
     background-color: rgba(150,150,150,0.2);
 }
 
