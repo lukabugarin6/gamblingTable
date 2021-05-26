@@ -26,6 +26,12 @@ button {
 
 a {
     text-decoration: underline;
+    color: var(--main-color);
+    padding: .75rem .75rem;
+    transition: color .3s ease-in-out;
+}
+
+a:hover {
     color: var(--secondary-color);
 }
 
@@ -36,6 +42,18 @@ a {
     border-spacing: 0;
     /* border-collapse: collapse; */
     border-radius: 9px;
+}
+
+.img-wrapper.flag {
+    max-width: 6rem;
+    margin: 0 auto;
+    padding: .75rem .75rem;
+}
+
+.img-wrapper.flag img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .table-1 thead {
@@ -81,21 +99,20 @@ a {
     /* bottom: -1.25rem; */
 }
 
-.table-1 tbody td:first-child {
+/* .table-1 tbody td:first-child {
     padding: .75rem 0 1rem .75rem;
     display: inline-flex;
-    /* height: 10rem; */
+    height: 10rem;
     height: 8rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: .5rem;
-}
+} */
 
-.table-1 tbody td:last-child {
-    padding: .25rem .125rem .75rem 0;
-    
-}
+/* .table-1 tbody td:last-child {
+    padding: .25rem .125rem .75rem 0;  
+} */
 
 .table-1 .img-wrapper.paint {
     position: relative;
@@ -145,7 +162,7 @@ td.paint img {
     background-color: rgba(212,212,212,0.2);
 }
 
-.table-2 tbody tr:nth-child(2n) {
+.table-1 tbody tr:nth-child(2n) {
     background-color: rgba(150,150,150,0.2);
 }
 
@@ -186,7 +203,7 @@ td.paint img {
 }
 
 .table-2 tbody td:first-child span {
-    background-color: rgba(69,69,69,0.75);
+    background-color: rgba(102,102,102,0.75);
     width: 2rem;
     height: 2rem;
     display: inline-flex;
@@ -195,6 +212,10 @@ td.paint img {
     border-radius: 50%;
     color: #fff;
     font-weight: 700;
+}
+
+.table-2 tbody tr:first-child td:first-child span {
+    background-color: rgba(0,0,0,0.75);
 }
 
 /* .table-2 .img-wrapper.trophy span {
