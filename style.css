@@ -30,18 +30,17 @@ a {
 }
 
 .table-1 {
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--main-color);
     margin-top: 4rem;
     margin-bottom: 4rem;
     border-spacing: 0;
     /* border-collapse: collapse; */
     border-radius: 9px;
-    padding-bottom: 1rem;
 }
 
 .table-1 thead {
-    color: var(--main-color);
-    background-color: rgba(249, 183, 30, .75);
+    color: var(--secondary-color);
+    background-color: var(--main-color);
     border-radius: 9px 9px 0 0;
 }
 
@@ -67,7 +66,7 @@ a {
     /* border-bottom: 1px solid rgba(69,69,69,0.7); */
 }
 
-.table-1 tbody td::after {
+/* .table-1 tbody td::after {
     content: '';
     position: absolute;
     height: 2px;
@@ -76,7 +75,7 @@ a {
     bottom: .25rem;
     left: 50%;
     transform: translate(-50%);
-}
+} */
 
 .table-1 tbody td:first-child:after {
     /* bottom: -1.25rem; */
@@ -114,7 +113,7 @@ a {
 
 .table-1 button {
     background-color: var(--secondary-color);
-    border-radius: 9px;
+    border-radius: 4px;
     display: block;
     margin: 0 auto;
     color: var(--main-color);
@@ -140,6 +139,14 @@ a {
 
 td.paint img {
     width: 100%;
+}
+
+.table-2 tbody tr {
+    background-color: rgba(212,212,212,0.2);
+}
+
+.table-2 tbody tr:nth-child(2n) {
+    background-color: rgba(150,150,150,0.2);
 }
 
 .table-2 tbody td {
@@ -178,11 +185,19 @@ td.paint img {
     margin: 0 auto;
 }
 
-.table-2 .img-wrapper.trophy {
-    position: relative;
+.table-2 tbody td:first-child span {
+    background-color: rgba(69,69,69,0.75);
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
 }
 
-.table-2 .img-wrapper.trophy span {
+/* .table-2 .img-wrapper.trophy span {
     position: absolute;
     font-weight: 800;
     color: #fff;
@@ -190,7 +205,7 @@ td.paint img {
     top: 25%;
     transform: translate(-50%,-50%);
     font-size: .9rem;
-}
+} */
 
 .overflow-auto {
     overflow-x: auto;
